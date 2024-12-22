@@ -20,8 +20,9 @@ public class BingoApp {
             if (num == SECRET) {
                 System.out.println("Bingo");
                 break;
+            } else {
+                System.out.println("Try again");
             }
         }
-
     }
 }

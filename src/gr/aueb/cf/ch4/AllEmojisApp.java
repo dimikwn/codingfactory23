@@ -16,7 +16,7 @@ public class AllEmojisApp {
             System.out.print(Character.toChars(i));
             System.out.print(" ");
             i++;
-            if (i % 16 == 0) System.out.println();
+            if (i % 32 == 0) System.out.println();
         }
     }
 }

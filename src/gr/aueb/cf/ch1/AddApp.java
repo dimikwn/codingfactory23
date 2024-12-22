@@ -20,5 +20,9 @@ public class AddApp {
         System.out.println("Το αποτέλεσμα των " + num1 + ", " + num2 + " είναι " + result);
         System.out.printf("Το αποτέλεσμα των %d , %d είναι %d", num1, num2, result);
     }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
 }
 

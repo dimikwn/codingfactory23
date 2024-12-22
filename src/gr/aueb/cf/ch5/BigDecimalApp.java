@@ -3,7 +3,7 @@ package gr.aueb.cf.ch5;
 import java.math.BigDecimal;
 
 /**
- *Floating points demo with
+ * Floating points demo with
  * BigDecimal class
  */
 public class BigDecimalApp {

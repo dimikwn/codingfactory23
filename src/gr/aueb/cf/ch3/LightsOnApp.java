@@ -29,7 +29,7 @@ public class LightsOnApp {
         System.out.println("Please insert car speed (int)");
         speed = in.nextInt();
 
-        isRunning = (speed>100);
+        isRunning = (speed > 100);
         lightsOn = isRaining && (isDark || isRunning);
 
         System.out.println("Lights On: " + lightsOn);
